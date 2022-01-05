@@ -1,0 +1,957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RollHistory>
+  <RollTuple ID="0">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d12</DiceType>
+    <Result>59</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>11</Roll>
+      <Roll>7</Roll>
+      <Roll>11</Roll>
+      <Roll>6</Roll>
+      <Roll>8</Roll>
+      <Roll>9</Roll>
+      <Roll>4</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="1">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d2</DiceType>
+    <Result>16</Result>
+    <Rolls>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="2">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Treasure</RollType>
+    <DiceType>d6</DiceType>
+    <Result>2</Result>
+    <Rolls>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="3">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Coin_Flip</RollType>
+    <DiceType>d2</DiceType>
+    <Result>1</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="4">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Treasure</RollType>
+    <DiceType>d2</DiceType>
+    <Result>16</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="5">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>5</Result>
+    <Rolls>
+      <Roll>5</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="6">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d20</DiceType>
+    <Result>33</Result>
+    <Rolls>
+      <Roll>18</Roll>
+      <Roll>15</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="7">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>3</Result>
+    <Rolls>
+      <Roll>3</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="8">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>36</Result>
+    <Rolls>
+      <Roll>58</Roll>
+      <Roll>42</Roll>
+      <Roll>48</Roll>
+      <Roll>27</Roll>
+      <Roll>5</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="9">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Treasure</RollType>
+    <DiceType>d10</DiceType>
+    <Result>16</Result>
+    <Rolls>
+      <Roll>7</Roll>
+      <Roll>7</Roll>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="10">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>50.5</Result>
+    <Rolls>
+      <Roll>43</Roll>
+      <Roll>93</Roll>
+      <Roll>4</Roll>
+      <Roll>23</Roll>
+      <Roll>78</Roll>
+      <Roll>62</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="11">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Miscellaneous</RollType>
+    <DiceType>d20</DiceType>
+    <Result>14</Result>
+    <Rolls>
+      <Roll>14</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="12">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>7</Result>
+    <Rolls>
+      <Roll>7</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="13">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Damage</RollType>
+    <DiceType>d100</DiceType>
+    <Result>313</Result>
+    <Rolls>
+      <Roll>68</Roll>
+      <Roll>40</Roll>
+      <Roll>54</Roll>
+      <Roll>41</Roll>
+      <Roll>51</Roll>
+      <Roll>59</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="14">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>11</Result>
+    <Rolls>
+      <Roll>11</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="15">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Save</RollType>
+    <DiceType>d20</DiceType>
+    <Result>10</Result>
+    <Rolls>
+      <Roll>10</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="16">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Miscellaneous</RollType>
+    <DiceType>d4</DiceType>
+    <Result>4</Result>
+    <Rolls>
+      <Roll>4</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="17">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Coin_Flip</RollType>
+    <DiceType>d2</DiceType>
+    <Result>1</Result>
+    <Rolls>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="18">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Coin_Flip</RollType>
+    <DiceType>d2</DiceType>
+    <Result>1</Result>
+    <Rolls>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="19">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>4</Result>
+    <Rolls>
+      <Roll>4</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="20">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Damage</RollType>
+    <DiceType>d10</DiceType>
+    <Result>21</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>10</Roll>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+      <Roll>7</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="21">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Miscellaneous</RollType>
+    <DiceType>d2</DiceType>
+    <Result>2</Result>
+    <Rolls>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="22">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Damage</RollType>
+    <DiceType>d100</DiceType>
+    <Result>347</Result>
+    <Rolls>
+      <Roll>53</Roll>
+      <Roll>9</Roll>
+      <Roll>30</Roll>
+      <Roll>60</Roll>
+      <Roll>60</Roll>
+      <Roll>73</Roll>
+      <Roll>12</Roll>
+      <Roll>13</Roll>
+      <Roll>37</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="23">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>18</Result>
+    <Rolls>
+      <Roll>18</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="24">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Treasure</RollType>
+    <DiceType>d12</DiceType>
+    <Result>52</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>10</Roll>
+      <Roll>5</Roll>
+      <Roll>4</Roll>
+      <Roll>8</Roll>
+      <Roll>12</Roll>
+      <Roll>11</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="25">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>1</Result>
+    <Rolls>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="26">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>42.25</Result>
+    <Rolls>
+      <Roll>28</Roll>
+      <Roll>59</Roll>
+      <Roll>41</Roll>
+      <Roll>41</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="27">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>17</Result>
+    <Rolls>
+      <Roll>17</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="28">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d20</DiceType>
+    <Result>34</Result>
+    <Rolls>
+      <Roll>13</Roll>
+      <Roll>7</Roll>
+      <Roll>13</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="29">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Coin_Flip</RollType>
+    <DiceType>d2</DiceType>
+    <Result>2</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="30">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Save</RollType>
+    <DiceType>d20</DiceType>
+    <Result>2</Result>
+    <Rolls>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="31">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d12</DiceType>
+    <Result>60</Result>
+    <Rolls>
+      <Roll>12</Roll>
+      <Roll>4</Roll>
+      <Roll>11</Roll>
+      <Roll>6</Roll>
+      <Roll>4</Roll>
+      <Roll>12</Roll>
+      <Roll>11</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="32">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Save</RollType>
+    <DiceType>d20</DiceType>
+    <Result>6</Result>
+    <Rolls>
+      <Roll>6</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="33">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Miscellaneous</RollType>
+    <DiceType>d20</DiceType>
+    <Result>29</Result>
+    <Rolls>
+      <Roll>7</Roll>
+      <Roll>3</Roll>
+      <Roll>19</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="34">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Attack</RollType>
+    <DiceType>d20</DiceType>
+    <Result>10</Result>
+    <Rolls>
+      <Roll>10</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="35">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Attack</RollType>
+    <DiceType>d20</DiceType>
+    <Result>13</Result>
+    <Rolls>
+      <Roll>13</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="36">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Save</RollType>
+    <DiceType>d20</DiceType>
+    <Result>16</Result>
+    <Rolls>
+      <Roll>16</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="37">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>47</Result>
+    <Rolls>
+      <Roll>5</Roll>
+      <Roll>89</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="38">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Attack</RollType>
+    <DiceType>d20</DiceType>
+    <Result>12</Result>
+    <Rolls>
+      <Roll>12</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="39">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Miscellaneous</RollType>
+    <DiceType>d2</DiceType>
+    <Result>4</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="40">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Damage</RollType>
+    <DiceType>d8</DiceType>
+    <Result>30</Result>
+    <Rolls>
+      <Roll>3</Roll>
+      <Roll>7</Roll>
+      <Roll>7</Roll>
+      <Roll>1</Roll>
+      <Roll>3</Roll>
+      <Roll>6</Roll>
+      <Roll>3</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="41">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>20</Result>
+    <Rolls>
+      <Roll>20</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="42">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Miscellaneous</RollType>
+    <DiceType>d8</DiceType>
+    <Result>26</Result>
+    <Rolls>
+      <Roll>6</Roll>
+      <Roll>5</Roll>
+      <Roll>4</Roll>
+      <Roll>6</Roll>
+      <Roll>5</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="43">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>8</Result>
+    <Rolls>
+      <Roll>8</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="44">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Damage</RollType>
+    <DiceType>d100</DiceType>
+    <Result>155</Result>
+    <Rolls>
+      <Roll>85</Roll>
+      <Roll>7</Roll>
+      <Roll>42</Roll>
+      <Roll>21</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="45">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>14</Result>
+    <Rolls>
+      <Roll>14</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="46">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d6</DiceType>
+    <Result>10</Result>
+    <Rolls>
+      <Roll>6</Roll>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="47">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Damage</RollType>
+    <DiceType>d100</DiceType>
+    <Result>28</Result>
+    <Rolls>
+      <Roll>28</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="48">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d100</DiceType>
+    <Result>431</Result>
+    <Rolls>
+      <Roll>49</Roll>
+      <Roll>35</Roll>
+      <Roll>100</Roll>
+      <Roll>53</Roll>
+      <Roll>60</Roll>
+      <Roll>16</Roll>
+      <Roll>2</Roll>
+      <Roll>70</Roll>
+      <Roll>46</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="49">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d10</DiceType>
+    <Result>28</Result>
+    <Rolls>
+      <Roll>3</Roll>
+      <Roll>8</Roll>
+      <Roll>2</Roll>
+      <Roll>5</Roll>
+      <Roll>8</Roll>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="50">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>13</Result>
+    <Rolls>
+      <Roll>13</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="51">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d12</DiceType>
+    <Result>27</Result>
+    <Rolls>
+      <Roll>8</Roll>
+      <Roll>11</Roll>
+      <Roll>8</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="52">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Treasure</RollType>
+    <DiceType>d2</DiceType>
+    <Result>9</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="53">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d6</DiceType>
+    <Result>18</Result>
+    <Rolls>
+      <Roll>6</Roll>
+      <Roll>6</Roll>
+      <Roll>3</Roll>
+      <Roll>3</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="54">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Miscellaneous</RollType>
+    <DiceType>d20</DiceType>
+    <Result>29</Result>
+    <Rolls>
+      <Roll>6</Roll>
+      <Roll>4</Roll>
+      <Roll>19</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="55">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>7</Result>
+    <Rolls>
+      <Roll>7</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="56">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>12</Result>
+    <Rolls>
+      <Roll>12</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="57">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Coin_Flip</RollType>
+    <DiceType>d2</DiceType>
+    <Result>2</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="58">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>51.5</Result>
+    <Rolls>
+      <Roll>37</Roll>
+      <Roll>35</Roll>
+      <Roll>71</Roll>
+      <Roll>63</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="59">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>14</Result>
+    <Rolls>
+      <Roll>14</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="60">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Save</RollType>
+    <DiceType>d20</DiceType>
+    <Result>1</Result>
+    <Rolls>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="61">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>26</Result>
+    <Rolls>
+      <Roll>7</Roll>
+      <Roll>33</Roll>
+      <Roll>22</Roll>
+      <Roll>42</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="62">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>53.5</Result>
+    <Rolls>
+      <Roll>45</Roll>
+      <Roll>62</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="63">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d12</DiceType>
+    <Result>62</Result>
+    <Rolls>
+      <Roll>4</Roll>
+      <Roll>6</Roll>
+      <Roll>6</Roll>
+      <Roll>7</Roll>
+      <Roll>8</Roll>
+      <Roll>9</Roll>
+      <Roll>8</Roll>
+      <Roll>6</Roll>
+      <Roll>4</Roll>
+      <Roll>4</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="64">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Coin_Flip</RollType>
+    <DiceType>d2</DiceType>
+    <Result>2</Result>
+    <Rolls>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+      <Roll>1</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="65">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>51.5</Result>
+    <Rolls>
+      <Roll>28</Roll>
+      <Roll>90</Roll>
+      <Roll>90</Roll>
+      <Roll>54</Roll>
+      <Roll>22</Roll>
+      <Roll>25</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="66">
+    <CupOwner />
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Percentile</RollType>
+    <DiceType>d100</DiceType>
+    <Result>36</Result>
+    <Rolls>
+      <Roll>36</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="67">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Damage</RollType>
+    <DiceType>d8</DiceType>
+    <Result>35</Result>
+    <Rolls>
+      <Roll>7</Roll>
+      <Roll>3</Roll>
+      <Roll>2</Roll>
+      <Roll>7</Roll>
+      <Roll>6</Roll>
+      <Roll>8</Roll>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="68">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Miscellaneous</RollType>
+    <DiceType>d100</DiceType>
+    <Result>176</Result>
+    <Rolls>
+      <Roll>96</Roll>
+      <Roll>34</Roll>
+      <Roll>46</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="69">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Treasure</RollType>
+    <DiceType>d6</DiceType>
+    <Result>15</Result>
+    <Rolls>
+      <Roll>2</Roll>
+      <Roll>2</Roll>
+      <Roll>5</Roll>
+      <Roll>6</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="70">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Attack</RollType>
+    <DiceType>d20</DiceType>
+    <Result>18</Result>
+    <Rolls>
+      <Roll>18</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="71">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Save</RollType>
+    <DiceType>d20</DiceType>
+    <Result>7</Result>
+    <Rolls>
+      <Roll>7</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="72">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Save</RollType>
+    <DiceType>d20</DiceType>
+    <Result>1</Result>
+    <Rolls>
+      <Roll>1</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="73">
+    <CupOwner>1</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>2</Result>
+    <Rolls>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="74">
+    <CupOwner>3</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Initiative</RollType>
+    <DiceType>d20</DiceType>
+    <Result>19</Result>
+    <Rolls>
+      <Roll>19</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="75">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Damage</RollType>
+    <DiceType>d8</DiceType>
+    <Result>2</Result>
+    <Rolls>
+      <Roll>2</Roll>
+    </Rolls>
+  </RollTuple>
+  <RollTuple ID="76">
+    <CupOwner>2</CupOwner>
+    <DateTime>1/4/2022 10:19:55 PM</DateTime>
+    <RollType>Restore</RollType>
+    <DiceType>d10</DiceType>
+    <Result>22</Result>
+    <Rolls>
+      <Roll>8</Roll>
+      <Roll>6</Roll>
+      <Roll>8</Roll>
+    </Rolls>
+  </RollTuple>
+</RollHistory>
