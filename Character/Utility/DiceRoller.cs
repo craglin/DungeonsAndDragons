@@ -63,10 +63,10 @@ namespace DungeonsAndDragons
     {
         // Key: rollID Tuple<cupOwnerID, DateTime, RollType, DiceType, Rolls, Result
         public static Dictionary<int, Tuple<int?, DateTime, RollType, DiceType, object, List<int>>> RollHistory { get; private set; }
-        public static int RollCounter { get; private set; }
-        private static Random randomRoll;
 
-        public delegate void DiceChooser(DiceCup cup);
+        public static int RollCounter { get; private set; }
+
+        private static Random randomRoll;
 
         #region Testing
         public static bool UseTestSeed { get; set; }
@@ -89,11 +89,6 @@ namespace DungeonsAndDragons
             Roll(cup);
         }
 
-        public static void Roll(object[] rollConds)
-        {
-            // TODO: Parse roll condtions
-        }
-
         public static void Roll(DiceCup cup)
         {
             cup.rollID = RollCounter++;
@@ -106,6 +101,7 @@ namespace DungeonsAndDragons
                 case RollType.Skill:
                     cup.diceType = DiceType.d20;
                     RollWithCondition(cup);
+                    // TODO: cup.ResultGenerator = ???
                     break;
                 case RollType.Ability:
                 case RollType.Damage:
@@ -113,17 +109,17 @@ namespace DungeonsAndDragons
                 case RollType.Restore:
                 case RollType.Treasure:
                     RollDice(cup);
-                    cup.result = cup.rolls.Sum() * cup.multiplier;
+                    cup.ResultGenerator = DiceSum;
                     break;
                 case RollType.Coin_Flip:
                     cup.diceType = DiceType.d2;
                     RollDice(cup);
-                    CoinDecider(cup);
+                    cup.ResultGenerator = CoinDecider;
                     break;
                 case RollType.Percentile:
                     cup.diceType = DiceType.d100;
                     RollDice(cup);
-                    cup.result = cup.numDice > 1 ? cup.rolls.Average() : cup.rolls[0];
+                    cup.ResultGenerator = DiceAverage;
                     break;
                 default:
                     break;
@@ -158,11 +154,6 @@ namespace DungeonsAndDragons
         {
             for (int i = 0; i < cup.numDice; i++)
                 cup.rolls.Add(randomRoll.Next(0, (int)cup.diceType) + 1);
-        }
-
-        private static int ExpectedValue(DiceCup cup)
-        {
-            return (cup.rolls.Sum() / (int)cup.diceType);
         }
 
         private static void AddToHistory(DiceCup cup)
@@ -239,23 +230,35 @@ namespace DungeonsAndDragons
         }
         #endregion
 
+        #region Delegate Functions
         private static void CoinDecider(DiceCup cup)
         {
-            var headNumQuery =
-                from result in cup.rolls
-                where result == 1
-                select result;
-
-            var tailsNumQuery =
-                from result in cup.rolls
-                where result == 2
-                select result;
-
-            int numHeads = headNumQuery.Count();
-            int numTails = tailsNumQuery.Count();
+            int numHeads = cup.rolls.Count(x => x == 1);
+            int numTails = cup.rolls.Count(x => x == 2);
 
             cup.result = numHeads >= numTails ? 1 : 2;
         }
+
+        private static void ExpectedValue(DiceCup cup)
+        {
+            cup.expectedResult = (cup.rolls.Sum() / (int)cup.diceType);
+        }
+
+        private static void DiceAverage(DiceCup cup)
+        {
+            cup.result = cup.numDice > 1 ? cup.rolls.Average() : cup.rolls[0];
+        }
+
+        private static void DiceSum(DiceCup cup)
+        {
+            cup.result = cup.rolls.Sum() * cup.multiplier;
+        }
+
+        private static void DiceLargest(DiceCup cup)
+        {
+            cup.result = cup.rolls.Max();
+        }
+        #endregion
 
         public static void ResetSeed(bool useTestSeed = false)
         {

@@ -22,7 +22,24 @@ namespace DungeonsAndDragons
         Scroll,
     }
 
+    public enum Rarity
+    {
+        Common,
+        Uncommon,
+        Rare,
+        Very_Rare,
+        Legendary,
+    }
+
     public class Treasure
     {
+        public TreasureTypes TreasureType {get; internal set;}
+
+        public Rarity TreasureRarity { get; internal set; }
+
+        public int Value { get; internal set; }
+
+        public string Description { get; internal set; }
+
     }
 }

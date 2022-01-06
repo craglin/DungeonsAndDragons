@@ -13,7 +13,7 @@ namespace DungeonsAndDragons.Character.Abilities
         public EquipmentType Type { get; internal set; }
         public HashSet<Weapon> WeaponSubtype { get; internal set; }
         public HashSet<Armor> ArmorSubtype { get; internal set; }
-        public HashSet<EquipmentTags> EquipmentTags { get; internal set; }
+        public HashSet<EquipmentType> EquipmentType { get; internal set; }
         public int Weight { get; internal set; }
         public CoinType Cost { get; internal set; }
         public CoinType Value { get; internal set; }

@@ -35,6 +35,8 @@ namespace DungeonsAndDragons
             Reset();
         }
 
+        public Action<DiceCup> ResultGenerator;
+
         public object Roll(string rollInfo, RollType rollType = RollType.Miscellaneous)
         {
             Reset();

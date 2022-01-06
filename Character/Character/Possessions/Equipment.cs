@@ -2,14 +2,6 @@
 
 namespace DungeonsAndDragons
 {
-    public enum EquipmentType
-    {
-        Armor,
-        Equipment,
-        Treasure,
-        Weapon,
-    }
-
     public enum Armor
     {
         Light,
@@ -17,41 +9,32 @@ namespace DungeonsAndDragons
         Heavy
     }
 
-    public enum EquipmentTags
+    public enum EquipmentType
     {
-        Adventuring_Gear,
+        Adventuring_Gear, Armor,
         Ammunition,
         ArcaneFocus,
         Container,
-        Gemstone,
         Magical_Instrument,
         Musical_Instrument,
         Scientific_Instrument,
         Pack_Equipment,
         Poison,
-        Potion,
         Tool,
         Vehicle_Air,
         Vehicle_Land,
         Vehicle_Nether,
         Vehicle_Sea,
-    }
-
-    public enum Quality
-    {
-        Common,
-        Rare,
-        Epic,
-        Legendary
+        Weapon,
     }
 
     public enum Weapon
     {
-        MartialMelee,
-        MartialRanged,
-        RangedFirearm,
-        SimpleMelee,
-        SimpleRanged,
+        Martial_Melee,
+        Martial_Ranged,
+        Firearm_Ranged,
+        Simple_Melee,
+        Simple_Ranged,
     }
 
     public class Equipment

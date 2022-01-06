@@ -13,9 +13,13 @@ namespace DungeonsAndDragons
     {
         // Containers for World Objects
         public static Dictionary<int, AbstractCharacter> Cast { get; internal set; }
+
         public static Dictionary<int, Spell> Library { get; internal set; }
+
         public static Dictionary<CoinType, int> Mint { get; internal set; }
+
         public static Dictionary<int, Treasure> Vault { get; internal set; }
+
         public static Dictionary<int, Equipment> Armory { get; internal set; }
 
         public DungeonMaster()
@@ -25,6 +29,11 @@ namespace DungeonsAndDragons
             Mint = new();
             Vault = new();
             Armory = new();
+        }
+
+        public DungeonMaster(string saveName)
+        {
+
         }
 
         public void AddToMint()
