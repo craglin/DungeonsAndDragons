@@ -7,21 +7,22 @@ namespace DungeonsAndDragons
     public static class XMLConverter
     {
         public static string Filepath { get; }
+        private static readonly XmlWriterSettings settings;
 
         static XMLConverter()
         {
             Filepath = @"..\..\..\..\Resources\";
-        }
-
-        public static void ExportRollHistory()
-        {
+            
             // Establish XML format settings
-            XmlWriterSettings settings = new()
+            settings = new()
             {
                 Indent = true,
                 IndentChars = "  "
             };
+        }
 
+        public static void ExportRollHistory()
+        {
             // Use settings file to write XML document
             using XmlWriter writer = XmlWriter.Create(Filepath + "RollHistory.xml", settings);
             {
@@ -48,14 +49,9 @@ namespace DungeonsAndDragons
             }
         }
 
-        public static void ExportTreasure()
-        {
-
-        }
-
         public static void ExportCast()
         {
-
+            
         }
 
         public static void ExportLibrary()
@@ -70,7 +66,25 @@ namespace DungeonsAndDragons
 
         public static void ExportVault()
         {
+            using XmlWriter writer = XmlWriter.Create(Filepath + "Vault.xml", settings);
+            {
+                writer.WriteStartDocument();
+                writer.WriteStartElement("Vault");
 
+                foreach (KeyValuePair<int, Treasure> treasure in DungeonMaster.Vault)
+                {
+                    writer.WriteStartElement("Treasure");
+                    writer.WriteAttributeString("ID", treasure.Key.ToString());
+                    writer.WriteElementString("Name", treasure.Value.Name.ToString());
+                    writer.WriteElementString("Rarity", treasure.Value.Rarity.ToString());
+                    writer.WriteElementString("Value", treasure.Value.Value.ToString());
+                    writer.WriteElementString("Source", treasure.Value.Source.ToString());
+                    writer.WriteElementString("Description", treasure.Value.Description);
+                    writer.WriteEndElement();
+                }
+                writer.WriteEndElement();
+                writer.WriteEndDocument();
+            }
         }
 
         public static void ExportArmory()

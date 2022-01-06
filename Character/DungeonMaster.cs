@@ -22,7 +22,7 @@ namespace DungeonsAndDragons
 
         public static Dictionary<int, Equipment> Armory { get; internal set; }
 
-        public DungeonMaster()
+        static DungeonMaster()
         {
             Cast = new();
             Library = new();
@@ -36,10 +36,16 @@ namespace DungeonsAndDragons
 
         }
 
+        public void ClearVault()
+        {
+            Vault.Clear();
+        }
+
         public void AddToMint()
         {
 
         }
+
 
 
     }

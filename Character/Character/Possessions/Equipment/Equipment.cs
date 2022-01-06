@@ -2,17 +2,11 @@
 
 namespace DungeonsAndDragons
 {
-    public enum Armor
-    {
-        Light,
-        Medium,
-        Heavy
-    }
-
     public enum EquipmentType
     {
-        Adventuring_Gear, Armor,
+        Adventuring_Gear, 
         Ammunition,
+        Armor,
         ArcaneFocus,
         Container,
         Magical_Instrument,
@@ -28,20 +22,14 @@ namespace DungeonsAndDragons
         Weapon,
     }
 
-    public enum Weapon
+    public class Equipment : AbstractPossession /* TODO implement , IEquipable */
     {
-        Martial_Melee,
-        Martial_Ranged,
-        Firearm_Ranged,
-        Simple_Melee,
-        Simple_Ranged,
-    }
-
-    public class Equipment
-    {
+        public EquipmentType Type { get; internal set; }
+        public int Weight { get; internal set; }
 
         public Equipment()
         {
         }
+
     }
 }

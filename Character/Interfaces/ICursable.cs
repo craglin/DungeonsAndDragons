@@ -1,4 +1,4 @@
-﻿namespace DungeonsAndDragons.Character.Possessions
+﻿namespace DungeonsAndDragons
 {
     interface ICursable
     {

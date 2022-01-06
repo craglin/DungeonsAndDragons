@@ -5,6 +5,7 @@ namespace DungeonsAndDragons
 {
     public class DungeonDelver
     {
+        //DungeonMaster master = new();
         public delegate void MenuOption();
         private static Random rng = new Random();
         private static DiceCup cup0 = new DiceCup();
@@ -106,6 +107,7 @@ namespace DungeonsAndDragons
                          "1. Roll to hit\r\n" +
                          "2. Roll Damage\r\n" +
                          "3. View Roll History \r\n" +
+                         "4. Add treasure \r\n" +
                          "Select a number or press Q or ESC to quit.\r\n"
                          );
                 keyPress = Console.ReadKey(true).Key;
@@ -123,6 +125,10 @@ namespace DungeonsAndDragons
                     case ConsoleKey.NumPad3:
                         GetHistory();
                         break;
+                    case ConsoleKey.D4:
+                    case ConsoleKey.NumPad4:
+                        AddTreasure();
+                        break;
                     case ConsoleKey.Q:
                     case ConsoleKey.Escape:
                         Environment.Exit(0);
@@ -133,6 +139,26 @@ namespace DungeonsAndDragons
                 Console.Clear();
             }
             while (true);
+        }
+
+        private static void AddTreasure()
+        {
+            Console.Clear();
+            Console.Write("Input Treasure Name: ");
+            string name = Console.ReadLine();
+            Console.Write("Input Treasure Description: ");
+            string description = Console.ReadLine();
+            Treasure treasure = new()
+            {
+                Name = name,
+                TreasureType = TreasureTypes.Art_Objects,
+                Rarity = Rarity.Common,
+                Source = Source.Players_Handbook,
+                Description = description,
+            };
+            //DungeonMaster.Vault.Add(treasure.ID, treasure);
+            XMLConverter.ExportVault();
+            return;
         }
 
         private static void RollToHit(DiceCup cup)

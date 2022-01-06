@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vault>
+  <Treasure ID="0">
+    <Name>New Item 0</Name>
+    <Rarity>Common</Rarity>
+    <Value>0</Value>
+    <Source>Players_Handbook</Source>
+    <Description>Test description string</Description>
+  </Treasure>
+  <Treasure ID="1">
+    <Name>Test Item 1</Name>
+    <Rarity>Common</Rarity>
+    <Value>0</Value>
+    <Source>Players_Handbook</Source>
+    <Description>blah blah blah</Description>
+  </Treasure>
+</Vault>

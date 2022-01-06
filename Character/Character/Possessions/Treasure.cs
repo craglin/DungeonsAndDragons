@@ -31,15 +31,16 @@ namespace DungeonsAndDragons
         Legendary,
     }
 
-    public class Treasure
+    public class Treasure : AbstractPossession
     {
-        public TreasureTypes TreasureType {get; internal set;}
+        private static int idCounter = 0;
 
-        public Rarity TreasureRarity { get; internal set; }
+        public TreasureTypes TreasureType {get; set; }
 
-        public int Value { get; internal set; }
-
-        public string Description { get; internal set; }
-
+        public Treasure()
+        {
+            ID = idCounter++;
+            DungeonMaster.Vault[ID] = this;
+        }
     }
 }
